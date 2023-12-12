@@ -7,10 +7,12 @@ Dark green: #28b485
 
 */
 
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 html {
@@ -23,6 +25,7 @@ body {
   line-height: 1.7;
   color: #777;
   padding: 3rem;
+  box-sizing: border-box;
 }
 
 .header {
@@ -184,4 +187,12 @@ body {
 .btn-animated {
   animation: moveInBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
+}
+
+.test {
+  color: dodgerblue;
+  background-color: aquamarine;
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
 }
