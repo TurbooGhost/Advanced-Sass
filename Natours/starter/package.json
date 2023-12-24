@@ -1,18 +1,16 @@
 {
-  "name": "starter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch ./style/main.scss ./css/style.css",
-    "prettier": "prettier --write \"**/*.{html,css,js,jsx,json,md,scss}\""
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "prettier": "^3.1.1",
-    "sass": "^1.69.5"
-  }
+    "name": "starter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "sass --watch ./style/main.scss ./css/style.css"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "sass": "^1.69.5"
+    }
 }
