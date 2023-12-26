@@ -4,13 +4,15 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "sass": "sass --watch ./style/main.scss ./css/style.css"
+        "watch:sass": "sass --watch ./style/main.scss ./css/style.css"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "autoprefixer": "^10.4.16",
+        "concat": "^1.0.3",
+        "postcss-cli": "^11.0.0",
         "sass": "^1.69.5"
     }
 }
