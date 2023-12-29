@@ -354,12 +354,10 @@
     }
 }
 
-// PARAGRAPH
 .paragraph:not(:last-of-type) {
     margin-bottom: 2rem;
 }
 
-// LIST
 .list {
     list-style: none;
     margin: 3rem 0;
@@ -398,7 +396,6 @@
     }
 }
 
-// RECOMMEND
 .recommend {
     font-size: 1.3rem;
     color: var(--color-grey-dark-3);
@@ -427,7 +424,6 @@
     }
 }
 
-// REVIEWS
 .review {
     background-color: #fff;
     box-shadow: var(--shadow-light);
@@ -494,7 +490,6 @@
     }
 }
 
-// CALL TO ACTION
 .cta {
     padding: 3.5rem 0;
     text-align: center;
@@ -511,7 +506,6 @@
     }
 }
 
-// CALL TO ACTION
 .btn {
     font-size: 1.5rem;
     font-weight: 300;
